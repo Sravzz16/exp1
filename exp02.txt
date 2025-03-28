@@ -1,0 +1,185 @@
+a=input("enter list values:")
+
+a=list(map(int,a.split()))
+
+sum=0
+
+for x in a:
+
+   # print(x)
+
+    sum=sum+x
+
+print("the sum is:",sum)
+
+o/p:
+enter list values:10 20 30 40
+
+the sum is: 100
+
+--------------------------------------------
+a=input("enter ur name:")
+
+b=int(input("enter ur age:"))
+
+if b>=18:
+
+    print("congratulations",a,".u r eligible to vote")
+
+
+o/p:
+nter ur name:sravani
+
+enter ur age:21
+
+congratulations sravani .u r eligible to vote
+
+--------------------------------------------------
+num=int(input("enter a number:"))
+
+if num%2==0:
+
+    print("num is even")
+
+else:
+
+    print("num is odd")
+
+o/p:
+enter a number:32
+
+num is even
+
+----------------------------------------------------
+num=int(input("enter a number:"))
+
+if num>=1 and num<=100:
+
+    print("num is between 1 and 100")
+
+else:
+
+    print("num is not in between 1 and 100")
+
+o/p:
+enter a number:56
+
+num is between 1 and 100
+
+----------------------------------------------------
+for x in range(1,11):
+
+    if x==5:
+
+        continue
+
+    if x==8:
+
+        break
+
+    print(x)
+
+o/p:
+1
+
+2
+
+3
+
+4
+
+6
+
+7
+------------------------------------------------------
+n=int(input("enter a value:"))
+
+count=0
+
+num=5
+
+while count<n:
+
+    print(num)
+
+    num+=5
+
+    count+=1
+
+o/p:
+enter a value:4
+
+5
+
+10
+
+15
+
+20
+---------------------------------------------------
+n=int(input("enter a number:"))
+
+if n==0:
+
+    print("zero")
+
+elif n==1:
+
+    print("one")
+
+elif n==2:
+
+    print("two")
+
+elif n==3:
+
+    print("three")
+
+elif n==4:
+
+    print("four")
+
+elif n==5:
+
+    print("five")
+
+elif n==6:
+
+    print("six")
+
+elif n==7:
+
+    print("seven")
+
+elif n==8:
+
+    print("eight")
+
+elif n==9:
+
+    print("nine")
+
+else:
+
+    print("out of range")
+
+o/p:
+enter a number:7
+
+seven
+-------------------------------------------
+i=0
+
+while i<=20:
+
+    if i%2==0:
+
+        print(i,end=',')
+
+    i+=1    
+
+o/p:
+0,2,4,6,8,10,12,14,16,18,20,
+--------------------------------------
+
+
