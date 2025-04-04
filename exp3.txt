@@ -1,0 +1,72 @@
+list=[]
+
+n=int(input("enter the no. of elements:"))
+
+for x in range(n):
+
+    num=int(input("enter the value:"))
+
+    list.append(num)
+
+print("my updated list is:",list)
+
+o/p:
+enter the no. of elements:5
+
+enter the value:16
+
+enter the value:3
+
+enter the value:163
+
+enter the value:14
+
+enter the value:5
+
+my updated list is: [16, 3, 163, 14, 5]
+
+-------------------------------------------------
+list1=[16,3,163,(16+3j),"jeevan",True]
+print(list1[2])
+print(list1[-2])
+print(list1[1:6])
+print(list1[::-1])
+list1.remove(3)
+print(list1)
+
+o/p:
+163
+
+jeevan
+
+[3, 163, (16+3j), 'jeevan', True]
+
+[True, 'jeevan', (16+3j), 163, 3, 16]
+
+[16, 163, (16+3j), 'jeevan', True]
+--------------------------------------------------
+list1=[16,3,163,False,14,7,15,True]
+print(len(list1))
+print(list1)
+a=min(list1)
+b=max(list1)
+print(a)
+print(b)
+
+o/p:
+8
+
+[16, 3, 163, False, 14, 7, 15, True]
+
+False
+
+163
+---------------------------------------------------
+list1=[10,20,30,40,60,True,163]
+sum=0
+for x in list1:
+    sum=sum+x
+print("the sum is:",sum)
+
+o/p:
+the sum is: 324
