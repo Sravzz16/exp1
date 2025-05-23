@@ -1,0 +1,209 @@
+def gcd(a,b):
+
+    while b!=0:
+
+        a,b=b,a%b
+
+    return a
+
+s1=int(input("enter 1st number:"))
+
+s2=int(input("enter 2nd number: "))
+
+result=gcd(s1,s2)
+print(result)
+
+o/p:
+enter 1st number:16
+
+enter 2nd number: 4
+4
+
+-----------------------------------------------------
+def check(number):
+
+    if number%2==0:
+
+        return "even"
+
+    else:
+
+        return "odd"
+
+s1=int(input("enter a number:"))
+
+result=check(s1)
+
+print(result)
+
+o/p:
+enter a number:61
+
+odd
+------------------------------------------------------
+def fact(number):
+
+    if number==0:
+
+        return 1
+
+    else:
+
+        return number*fact(number-1)
+
+for i in range(1,11):
+
+    result=fact(i)
+
+    print("the factorial of ",i,"is:",result)
+
+o/p:
+the factorial of  1 is: 1
+
+the factorial of  2 is: 2
+
+the factorial of  3 is: 6
+
+the factorial of  4 is: 24
+
+the factorial of  5 is: 120
+
+the factorial of  6 is: 720
+
+the factorial of  7 is: 5040
+
+the factorial of  8 is: 40320
+
+the factorial of  9 is: 362880
+
+the factorial of  10 is: 3628800
+
+--------------------------------------------------------
+def fact(number):
+
+    if number==0:
+
+        return 1
+
+    else:
+
+        return number*fact(number-1)
+
+n=int(input("enter a number:"))
+
+result=fact(n)
+
+print("the factorial of ",n,"is:",result)
+
+o/p:
+enter a number:4
+
+the factorial of  4 is: 24
+
+-----------------------------------------------------------
+def lst_sum(number):
+
+    total=0
+
+    for x in number:
+
+        total+=x
+
+    return total
+
+lst=[]
+
+n=int(input("enter the no.of elements in the lst:"))
+
+for i in range(n):
+
+    num=eval(input("enter the element:"))
+
+    lst.append(num)
+
+result=lst_sum(lst)
+
+print("the sum is:",result)
+    
+
+o/p:
+enter the no.of elements in the lst:5
+
+enter the element:3
+
+enter the element:6
+
+enter the element:63
+
+enter the element:163
+
+enter the element:6
+
+the sum is: 241
+--------------------------------------------------------------------
+def add(a,b):
+
+    return a+b
+
+def sub(a,b):
+
+    return a-b
+
+def mul(a,b):
+
+    return a*b
+
+def div(a,b):
+
+    return a/b
+
+n1=int(input("enter the 1st number:"))
+
+n2=int(input("enter the 2nd number:"))
+
+print("addition is:",add(n1,n2))
+
+print("subtraction is:",sub(n1,n2))
+
+print("multiplication is:",mul(n1,n2))
+
+print("dividion is:",div(n1,n2))
+
+o/p:
+enter the 1st number:467
+
+enter the 2nd number:34
+
+addition is: 501
+
+subtraction is: 433
+
+multiplication is: 15878
+
+dividion is: 13.735294117647058
+
+--------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
