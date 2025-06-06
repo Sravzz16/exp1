@@ -1,0 +1,124 @@
+d1={10:'python',20:'java'}
+
+d2={30:'sravs',40:'sam'}
+
+d3=d1|d2
+
+print(d3)
+
+o/p:
+{10: 'python', 20: 'java', 30: 'sravs', 40: 'sam'}
+-----------------------------------------------------------
+d={'apple':5,"banana":10,'mango':8}
+
+for k in d.keys():
+
+    print(k)
+
+for v in d.values():
+
+    print(v)
+
+for k,v in d.items():
+
+    print(k,"--->",v)
+
+o/p:
+apple
+
+banana
+
+mango
+
+5
+
+10
+
+8
+
+apple ---> 5
+
+banana ---> 10
+
+mango ---> 8
+
+--------------------------------------------------------
+fruits={'apple','orange','mango'}
+
+fruits_dict={fruit:index for index,fruit in enumerate(fruits)}
+
+print(fruits_dict)
+
+o/p:
+{'orange': 0, 'mango': 1, 'apple': 2}
+---------------------------------------------------------
+d={'apple':5,'mango':15,'banana':10,'orange':8}
+
+kd=['apple','banana']
+
+for k in kd:
+
+    if k in d:
+
+        del d[k]
+
+print(d)
+
+o/p:
+{'mango': 15, 'orange': 8}
+--------------------------------------------------------
+d={'s1':98,'s2':96,'s3':100,'s4':97}
+
+print(d)
+
+s=sum(d.values())
+
+print(s)
+
+mx=max(d.values())
+
+print(mx)
+
+mn=min(d.values())
+
+print(mn)
+
+cnt=len(d.values())
+
+print(cnt)
+
+
+o/p:
+{'s1': 98, 's2': 96, 's3': 100, 's4': 97}
+
+391
+
+100
+
+96
+
+4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
