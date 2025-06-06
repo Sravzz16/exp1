@@ -1,0 +1,141 @@
+try:
+
+    x=10/0
+
+except Exception as e:
+
+    print("an error occured:",str(e))
+
+o/p:
+an error occured: division by zero
+-------------------------------------------------------------
+try:
+
+    num=int(input("enter a number:"))
+
+    result=10/num
+
+    print("result:",result)
+
+except ValueError:
+
+    print("Error: invalid input! please enter a valid input.")
+
+except ZeroDivisionError:
+
+    print("Error:division by zero!")
+
+o/p:
+enter a number:5
+
+result: 2.0
+
+enter a number:jk
+
+ERROR!
+
+Error: invalid input! please enter a valid input.
+
+
+enter a number:0
+
+ERROR!
+
+Error:division by zero!
+
+------------------------------------------------------------------
+try:
+
+    num=int(input("enter a number:"))
+
+    result=10/num
+
+except ValueError:
+
+    print("Error: invalid input! please enter a valid input.")
+
+except ZeroDivisionError:
+
+    print("Error:division by zero!")
+
+else:
+
+    print("result:",result)
+
+o/p:
+enter a number:3
+
+result: 3.3333333333333335
+---------------------------------------------------------
+try:
+
+    x=int(input("enter a number upto 100:"))
+
+    if x>100:
+
+        raise ValueError(x)
+
+except ValueError:
+
+    print(x,"is out of range")
+
+else:
+
+    print(x,"is in given range")
+
+o/p:
+enter a number upto 100:16
+
+16 is in given range
+
+
+enter a number upto 100:163
+
+163 is out of range
+------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
